@@ -59,7 +59,13 @@
                 </executions>
             </plugin>
         </plugins>
-
+        <extensions>
+            <extension>
+                <groupId>org.springframework.build</groupId>
+                <artifactId>aws-maven</artifactId>
+                <version>5.0.0.RELEASE</version>
+            </extension>
+        </extensions>
     </build>
     <repositories>
         <repository>
@@ -75,11 +81,11 @@
 
     <distributionManagement>
         <snapshotRepository>
-            <id>kickass-repo</id>
+            <id>kickass-repo-release</id>
             <url>s3://kickass-repo/snapshot</url>
         </snapshotRepository>
         <repository>
-            <id>kickass-repo</id>
+            <id>kickass-repo-snapshot</id>
             <url>s3://kickass-repo/release</url>
         </repository>
     </distributionManagement>

@@ -6,7 +6,12 @@
     <pluginGroups/>
     <servers>
         <server>
-            <id>kickass-repo</id>
+            <id>kickass-repo-release</id>
+            <username>kickass-repo-user</username>
+            <password>2nKs7hiT70Id4b+nB3yXMP/N6zyV+k14YUjRy/Qf</password>
+        </server>
+        <server>
+            <id>kickass-repo-snapshot</id>
             <username>kickass-repo-user</username>
             <password>2nKs7hiT70Id4b+nB3yXMP/N6zyV+k14YUjRy/Qf</password>
         </server>
